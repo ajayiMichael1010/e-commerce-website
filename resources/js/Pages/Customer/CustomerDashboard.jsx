@@ -1,4 +1,4 @@
-import React , from 'react';
+import React  from 'react';
 import PageHeader from "@/Layouts/PageHeader.jsx";
 import PageFooter from "@/Layouts/PageFooter.jsx";
 
