@@ -59,7 +59,7 @@ class RegisteredUserController extends Controller
 
         $route = $request->role==="ROLE_ADMIN" ? "/admin" : "/customer";
 
-        return  redirect($route,"Registration successful");
+        return  redirect($route,200);
        // return redirect(RouteServiceProvider::HOME);
     }
 }
